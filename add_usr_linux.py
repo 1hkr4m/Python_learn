@@ -5,12 +5,10 @@ import getpass
 
 def add_user():
   username = input("Enter username ")
-  password = getpass.getpass()   4
-  
+  password = getpass.getpass()
   try:
     subprocess.run(['useradd', '-p', password, username ])
   except:
     print(f"Failed to add user.")
     sys.exit(1)
-    
- add_user()
+add_user()
