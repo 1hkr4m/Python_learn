@@ -1,2 +1,4 @@
 # python_learn
-Simple code on python
+
+-  aCloudGuru
+-  Linux scripts
